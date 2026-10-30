@@ -1,0 +1,28 @@
+# Python environments
+backend/.venv312/
+backend/venv/
+**/__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+.env.*
+
+# Qdrant
+backend/qdrant_storage/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
